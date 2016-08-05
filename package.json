@@ -1,0 +1,28 @@
+{
+  "name": "mycro-adapters",
+  "version": "1.0.0",
+  "description": "mycro hook for loading adapters",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover tape -- 'test/tests/**/*.test.js'",
+    "test": "tape test/tests/**/*.test.js"
+  },
+  "keywords": [
+    "mycro",
+    "adapters"
+  ],
+  "author": "chris ludden",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^2.0.1",
+    "istanbul": "^0.4.4",
+    "lodash": "^4.14.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0",
+    "tape-catch": "^1.0.6",
+    "testdouble": "^1.6.0"
+  },
+  "dependencies": {
+    "joi": "^9.0.4"
+  }
+}
